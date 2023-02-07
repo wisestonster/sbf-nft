@@ -1,5 +1,5 @@
 async function main() {
-    const SbfToken = await ethers.getContractFactory("SbfToken")
+    const SbfToken = await ethers.getContractFactory("SBFToken")
   
     // Start deployment, returning a promise that resolves to a contract object
     const sbfToken = await SbfToken.deploy()

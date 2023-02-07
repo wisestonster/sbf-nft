@@ -1,0 +1,21 @@
+{
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Committee"
+      },
+      {
+        "trait_type": "Sex",
+        "value": "Male"
+      },
+      {
+        "trait_type": "Role",
+        "value": "Technology Committee"
+      }
+    ],
+    "description": "Smart-city Blockchain Forum; SBF",
+    "image": "https://gateway.pinata.cloud/ipfs/QmbXWSHfoGXTot7qQkACmL5GojwU24xKiPDhJ4NZYwsrhm",
+    "name": "SBF Membership - Committee"
+  }
+  
+

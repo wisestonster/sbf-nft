@@ -7,7 +7,7 @@ const { createAlchemyWeb3 } = require("@alch/alchemy-web3")
 const web3 = createAlchemyWeb3(API_URL)
 
 const contract = require("../artifacts/contracts/SbfNFT.sol/SbfNFT.json")
-const contractAddress = "0xAE2C0835203BED737cA3aa2a5880800e8bfaDfa6"
+const contractAddress = "0xACa552598DEd011dC8C947EA089e5290cEfcC8F5"
 const nftContract = new web3.eth.Contract(contract.abi, contractAddress)
 
 async function mintNFT(tokenURI) {
@@ -48,4 +48,4 @@ async function mintNFT(tokenURI) {
     })
 }
 
-mintNFT("https://gateway.pinata.cloud/ipfs/QmNmCmNePUTqpuKuHQhqHXhNm93zUkPukP7AayxDBG4rZC")
+mintNFT("https://gateway.pinata.cloud/ipfs/Qmcp4psrHkiJSGHhJDD6cYTvdm3Hyk3YhoD54gGm6mneTx")
